@@ -1,5 +1,4 @@
 # IBM-Data-Science
-# IBM Data Science
 
 This repository contains all the hands-on lab assignments and projects completed as part of the **IBM Data Science Professional Certificate**. The exercises cover key concepts, tools, and techniques in data science, including data wrangling, exploratory data analysis (EDA), SQL, visualization, and machine learning.
 
