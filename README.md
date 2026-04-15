@@ -1,39 +1,55 @@
-# IBM-Data-Science
+# IBM Data Science Certification Projects
 
-This repository contains all the hands-on lab assignments and projects completed as part of the **IBM Data Science Professional Certificate**. The exercises cover key concepts, tools, and techniques in data science, including data wrangling, exploratory data analysis (EDA), SQL, visualization, and machine learning.
+This repository contains all the hands-on labs completed as part of the **IBM Data Science Professional Certificate**. It demonstrates practical application of data science techniques across data collection, wrangling, analysis, visualization, dashboards, geospatial analytics, and machine learning.
 
-Some code has been **adapted to ensure compatibility with any version of Google Colab**, allowing the notebooks to run seamlessly without version conflicts.
+**Note:** Some code has been adapted to ensure compatibility with any version of Google Colab, allowing the notebooks to run seamlessly without version conflicts.
 
 ## Contents
 
-1. **Hands-on Lab 1: Complete the Data Collection**  
-   - Data gathering and initial exploration from public datasets.
+1. **Hands-on Lab: Complete the Data Collection (API Lab)**  
+   - Explored and retrieved data from public APIs.
+   - Practiced making API requests, parsing JSON, and loading data into pandas DataFrames.
+   - Focused on building reproducible data pipelines.
 
-2. **Hands-on Lab 2: Data Wrangling**  
-   - Cleaning, transforming, and preparing data for analysis.
+2. **Hands-on Lab: Data Wrangling**  
+   - Cleaned, transformed, and prepared datasets for analysis.
+   - Handled missing values, duplicates, and inconsistent data formats.
+   - Demonstrated feature engineering and column manipulation techniques.
 
-3. **Hands-on Lab 3: EDA with SQL**  
-   - Using SQL queries for exploratory analysis.
+3. **Hands-on Lab: Complete the EDA with SQL**  
+   - Explored datasets using SQL queries in Jupyter notebooks.
+   - Performed aggregations, filtering, and joins to extract insights.
+   - Linked SQL analysis with pandas DataFrames for hybrid workflows.
 
-4. **Hands-on Lab 4: EDA with Visual Analytics**  
-   - Creating visualizations to understand data patterns.
+4. **Hands-on Lab: Complete the EDA with Visualization**  
+   - Created charts and visualizations to explore data patterns.
+   - Used matplotlib and seaborn to present relationships between variables.
+   - Generated insights through plots like scatter, histogram, and heatmaps.
 
-5. **Hands-on Lab 6: Interactive Dashboards**  
-   - Building dashboards using Python libraries to present insights.
+5. **Hands-on Lab: Interactive Visual Analytics with Folium**  
+   - Worked with geospatial datasets and plotted them on interactive maps.
+   - Implemented Marker Clusters, customized icons, and popups.
+   - Visualized launch sites and success/failure status with color-coded markers.
 
-6. **Hands-on Lab 7: Interactive Visual Analytics with Folium**  
-   - Geospatial data visualization and interactive map creation.
+6. **Hands-on Lab: Build an Interactive Dashboard with Plotly Dash**  
+   - Designed interactive dashboards for data exploration.
+   - Added dropdowns, sliders, and callbacks to make visualizations dynamic.
+   - Showcased the integration of multiple plots in a single dashboard interface.
 
-7. **Hands-on Lab 8: Machine Learning**  
-   - Implementing supervised and unsupervised learning models.
+7. **Hands-on Lab: Complete the Machine Learning Prediction Lab**  
+   - Built supervised learning models to predict outcomes from features.
+   - Implemented classification and regression pipelines.
+   - Applied train-test split, model evaluation metrics, and hyperparameter tuning.
 
 ## Tools and Libraries
 
-- Python (pandas, numpy, matplotlib, seaborn, folium)
+- Python (pandas, numpy, matplotlib, seaborn, folium, plotly, scikit-learn)
 - SQL
 - Jupyter Notebooks
 - IBM Cloud and associated data science tools
 
 ## Purpose
 
-This repository demonstrates practical application of data science techniques, showcasing the ability to collect, clean, visualize, and analyze data. It serves as a portfolio of projects completed during the IBM Data Science Professional Certificate program.
+This repository demonstrates the end-to-end workflow of data science projects:
+from data collection and cleaning, through exploratory analysis and visualization, to building interactive dashboards and predictive machine learning models.  
+It serves as a practical portfolio for the IBM Data Science Professional Certificate.
